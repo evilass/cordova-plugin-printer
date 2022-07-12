@@ -91,6 +91,9 @@ class PrintContent
                 try
                 {
                     mime = URLConnection.guessContentTypeFromStream(io.openBase64(path));
+                    if (mime == null) {
+                        mime = "application/pdf";
+                    }
                 }
                 catch (IOException e)
                 {

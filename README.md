@@ -7,6 +7,8 @@
 
 Plugin for [Cordova][cordova] to print documents, photos, HTML and plain text from iOS, Android and Windows Universal apps.
 
+XXX
+
 ```js
 cordova.plugins.printer.print('<b>Hello Cordova!</b>');
 ```
